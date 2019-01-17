@@ -1,0 +1,6 @@
+<app-child-component [items]="items">
+  <ng-template let-item="item">
+    <p>klucz: {{ item.klucz }}, wartosc: {{ item.wartosc }}, dana: {{item.dana}};</p>
+  </ng-template>
+</app-child-component>
+<p>Items count: {{ getItemsCount() }}</p>
